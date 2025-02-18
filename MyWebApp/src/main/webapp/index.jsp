@@ -1,16 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-          <title>A page written in english</title>
-          <meta content="text/html; charset=utf-8" />
-    </head> 
+<html>
+
+<head>
+    <title>HTML Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
 <body>
-<h2> Hi All! We are migrating Java Web App into Azure cloud by using GitHub Actions!!!! </h2>
-<h2> Hi All! We are migrating Java Web App into Azure cloud by using GitHub Actions!!!! </h2>
-<h2> Hi All! We are migrating Java Web App into Azure cloud by using GitHub Actions!!!! </h2>
-<h2> Hi All! We are migrating Java Web App into Azure cloud by using GitHub Actions!!!! </h2>
-<h2> Hi All! We are migrating Java Web  </h2>
+    <div class="main">
+        <h1>GeeksforGeeks</h1>
+        <h3>Enter your login credentials</h3>
 
+        <form action="">
+            <label for="first">
+                Username:
+            </label>
+            <input type="text" id="first" name="first" 
+                placeholder="Enter your Username" required>
 
+            <label for="password">
+                Password:
+            </label>
+            <input type="password" id="password" name="password" 
+                placeholder="Enter your Password" required>
+
+            <div class="wrap">
+                <button type="submit">
+                    Submit
+                </button>
+            </div>
+        </form>
+        
+        <p>Not registered?
+            <a href="#" style="text-decoration: none;">
+                Create an account
+            </a>
+        </p>
+    </div>
 </body>
+
 </html>
